@@ -15,7 +15,7 @@ function Nav() {
   return (
     <AppBar position="sticky">
       <StyleToolbar>
-        <Typography variant="h5">Tour</Typography>
+        <Typography variant="h5">Tours</Typography>
         <Box sx={{display:'flex',alignItems:'center',gap:'20px'}}>
           <Badge badgeContent={4} color="secondary">
             <MailIcon color="action" />

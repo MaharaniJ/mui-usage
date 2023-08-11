@@ -17,7 +17,7 @@ import {
 
 function Menu() {
   return (
-    <Box mt={5} flex={1} p={3} ml={2}>
+    <Box mt={5} flex={1} p={2} sx={{display:{xs:"none",sm:"block"}}} >
       <Box position="fixed">
       <List>
         <ListItem disablePadding>
