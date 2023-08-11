@@ -56,7 +56,7 @@ function Right() {
   ];
 
   return (
-    <Box flex={1} sx={{display:{xs:"none",sm:"block"}}}>
+    <Box flex={1} sx={{ display: { xs: "none", sm: "block" } }}>
       <Box position="fixed">
         <Typography variant="h5" sx={{ marginTop: 2 }}>
           Photo Gallary
@@ -65,7 +65,7 @@ function Right() {
           sx={{
             width: 350,
             marginTop: 2,
-            height:450,
+            height: 450,
             // "@media (min-width: 600px)": {
             //   width: 350,
             // },

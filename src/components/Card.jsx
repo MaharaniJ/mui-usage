@@ -16,8 +16,8 @@ function TourCard() {
         maxWidth: 600,
         marginBottom: 4,
         "&:hover": {
-            transform: "scale(1.05)", // Enlarge the image on hover
-          },
+          transform: "scale(1.05)", // Enlarge the image on hover
+        },
       }}
     >
       <CardHeader title="Select your Tourist spot" />

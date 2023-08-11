@@ -17,78 +17,78 @@ import {
 
 function Menu() {
   return (
-    <Box mt={5} flex={1} p={2} sx={{display:{xs:"none",sm:"block"}}} >
+    <Box mt={5} flex={1} p={2} sx={{ display: { xs: "none", sm: "block" } }}>
       <Box position="fixed">
-      <List>
-        <ListItem disablePadding>
-          <ListItemButton>
-            <ListItemIcon>
-              <AirplanemodeActiveIcon />
-            </ListItemIcon>
-            <ListItemText primary="Plan your Trip" />
-          </ListItemButton>
-        </ListItem>
-      </List>
-      <List>
-        <ListItem disablePadding>
-          <ListItemButton>
-            <ListItemIcon>
-              <ListOutlined />
-            </ListItemIcon>
-            <ListItemText primary="Things Todo" />
-          </ListItemButton>
-        </ListItem>
-      </List>
-      <List>
-        <ListItem disablePadding>
-          <ListItemButton>
-            <ListItemIcon>
-              <Explore />
-            </ListItemIcon>
-            <ListItemText primary="Explore" />
-          </ListItemButton>
-        </ListItem>
-      </List>
-      <List>
-        <ListItem disablePadding>
-          <ListItemButton>
-            <ListItemIcon>
-              <Accessibility />
-            </ListItemIcon>
-            <ListItemText primary="Facts" />
-          </ListItemButton>
-        </ListItem>
-      </List>
-      <List>
-        <ListItem disablePadding>
-          <ListItemButton>
-            <ListItemIcon>
-              <Place />
-            </ListItemIcon>
-            <ListItemText primary="Place" />
-          </ListItemButton>
-        </ListItem>
-      </List>
-      <List>
-        <ListItem disablePadding>
-          <ListItemButton>
-            <ListItemIcon>
-              <LocalActivity />
-            </ListItemIcon>
-            <ListItemText primary="Tickets" />
-          </ListItemButton>
-        </ListItem>
-      </List>
-      <List>
-        <ListItem disablePadding>
-          <ListItemButton>
-            <ListItemIcon>
-              <Info />
-            </ListItemIcon>
-            <ListItemText primary="Help" />
-          </ListItemButton>
-        </ListItem>
-      </List>
+        <List>
+          <ListItem disablePadding>
+            <ListItemButton>
+              <ListItemIcon>
+                <AirplanemodeActiveIcon />
+              </ListItemIcon>
+              <ListItemText primary="Plan your Trip" />
+            </ListItemButton>
+          </ListItem>
+        </List>
+        <List>
+          <ListItem disablePadding>
+            <ListItemButton>
+              <ListItemIcon>
+                <ListOutlined />
+              </ListItemIcon>
+              <ListItemText primary="Things Todo" />
+            </ListItemButton>
+          </ListItem>
+        </List>
+        <List>
+          <ListItem disablePadding>
+            <ListItemButton>
+              <ListItemIcon>
+                <Explore />
+              </ListItemIcon>
+              <ListItemText primary="Explore" />
+            </ListItemButton>
+          </ListItem>
+        </List>
+        <List>
+          <ListItem disablePadding>
+            <ListItemButton>
+              <ListItemIcon>
+                <Accessibility />
+              </ListItemIcon>
+              <ListItemText primary="Facts" />
+            </ListItemButton>
+          </ListItem>
+        </List>
+        <List>
+          <ListItem disablePadding>
+            <ListItemButton>
+              <ListItemIcon>
+                <Place />
+              </ListItemIcon>
+              <ListItemText primary="Place" />
+            </ListItemButton>
+          </ListItem>
+        </List>
+        <List>
+          <ListItem disablePadding>
+            <ListItemButton>
+              <ListItemIcon>
+                <LocalActivity />
+              </ListItemIcon>
+              <ListItemText primary="Tickets" />
+            </ListItemButton>
+          </ListItem>
+        </List>
+        <List>
+          <ListItem disablePadding>
+            <ListItemButton>
+              <ListItemIcon>
+                <Info />
+              </ListItemIcon>
+              <ListItemText primary="Help" />
+            </ListItemButton>
+          </ListItem>
+        </List>
       </Box>
     </Box>
   );
